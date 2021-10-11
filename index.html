@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <script src="/js/main.js"></script>
+</head>
+<body onload="load()">
+    <h1 id="msg">Olá Mundo</h1>
+    <button type="button" onclick="clicou()">Clique aqui!</button>
+    <h3 id="agradecimento" onclick="redirecionar()">Texto que será modicado</h3>
+    <h3 id="troca" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui!</h3>
+    <select name="selecao" id="selec" onchange="funcaoChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+</body>
+</html>

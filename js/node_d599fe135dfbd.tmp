@@ -1,0 +1,45 @@
+var count = 0;
+while (count < 10){
+    console.log(count);
+    count = count++; 
+}
+
+/*Condicionais e Laços de repetição
+var idade = prompt("Qual a sua idade?");
+if (idade < 18){
+    alert("Voçê é menor de idade");
+}else{
+    alert("Voçê é maior de idade!")
+}
+*/
+
+/*
+var frutas = [{nome:"maça", cor:"verde"}, {nome:"abacaxi", cor:"amarelo"}, {nome:"laranja", cor:"laranja"}];
+console.log(frutas[1].cor);
+alert(frutas[1].nome);
+*/
+
+/*Dicionário
+var fruta = {nome:"maça", cor:"verde"};
+console.log(fruta.cor);
+*/
+
+/*Concatenando com JS
+var name = "Régis Picáz";
+alert(`Olá ${name}!`);
+*/
+
+//Array
+//var lista = ["maça", "banana", "abacaxi"];
+//lista.push("uva");//adiciona elemento a lista
+//lista.pop(); //remove elemento da lista
+
+
+//console.log(lista);//Mostra os ítens da lista
+//console.log(lista.length);//Mostra o tamanho da lista
+//console.log(lista.reverse());//Metodo() que Mostra lista em ordem reversa
+//console.log(lista.toLocaleString());//Altera de Array para String
+//console.log(lista.join(" - "));//Altera os dados para String e os separadores para o caractere de sua escolha
+
+
+//alert(lista[3]); 
